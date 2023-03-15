@@ -1,0 +1,31 @@
+.PromptDisplay {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.RedOption,
+.BlueOption {
+    display: flex;
+    width: 50vw;
+    height: 50vh;
+    font-family: Poppins;
+    font-size: 2em;
+    align-items: center;
+    justify-content: center;
+}
+
+.RedOption p,
+.BlueOption p {
+    margin: 5vh 5vw 5vh 5vw;
+    color: white;
+}
+
+.RedOption {
+    background-color: maroon;
+}
+
+.BlueOption {
+    background-color: midnightblue;
+}
